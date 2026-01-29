@@ -1,15 +1,21 @@
 <script setup lang="ts">
+import { computed } from "vue";
 import DictionaryCard from "./components/DictionaryCard.vue";
+import dictionary from "./dictionary";
+const currentWord = computed(
+  () =>
+    dictionary[0] as {
+      word: string;
+      type: string;
+      definition: string;
+      example: string;
+    },
+);
 </script>
 
 <template>
   <main>
-    <DictionaryCard
-      title="Pillepalle"
-      pos="/NOUN/"
-      definition="A delightfully pointless little thing, far too insignificant to be worth getting upset about."
-      example="Roman macht Drama daraus, aber ehrlich gesagt ist es Pillepalle."
-    />
+    <DictionaryCard v-bind="currentWord" />
   </main>
 </template>
 
