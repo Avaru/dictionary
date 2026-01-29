@@ -8,6 +8,8 @@
     "build": "run-p type-check \"build-only {@}\" --",
     "preview": "vite preview",
     "build-only": "vite build",
+    "predeploy": "npm run build",
+    "deploy:gh-pages": "gh-pages -d dist",
     "type-check": "vue-tsc --build",
     "lint": "run-s lint:*",
     "lint:oxlint": "oxlint . --fix",
@@ -36,7 +38,8 @@
     "typescript": "~5.9.3",
     "vite": "beta",
     "vite-plugin-vue-devtools": "^8.0.5",
-    "vue-tsc": "^3.2.4"
+    "vue-tsc": "^3.2.4",
+    "gh-pages": "^5.0.0"
   },
   "engines": {
     "node": "^20.19.0 || >=22.12.0"

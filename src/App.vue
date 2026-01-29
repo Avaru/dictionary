@@ -1,11 +1,24 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import DictionaryCard from "./components/DictionaryCard.vue";
+</script>
 
 <template>
-  <h1>You did it!</h1>
-  <p>
-    Visit <a href="https://vuejs.org/" target="_blank" rel="noopener">vuejs.org</a> to read the
-    documentation
-  </p>
+  <main>
+    <DictionaryCard
+      title="Pillepalle"
+      pos="/NOUN/"
+      definition="A delightfully pointless little thing, far too insignificant to be worth getting upset about."
+      example="Roman macht Drama daraus, aber ehrlich gesagt ist es Pillepalle."
+    />
+  </main>
 </template>
 
-<style scoped></style>
+<style scoped>
+main {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+</style>
