@@ -78,7 +78,7 @@ defineEmits<{
   font-family: var(--body-font);
   font-weight: 700;
   letter-spacing: 0.04em;
-  font-size: clamp(11px, 2.5vw, 14px);
+  font-size: clamp(13px, 3vw, 14px);
   color: var(--accent);
   margin-bottom: 8px;
   font-variant: small-caps;
@@ -103,13 +103,13 @@ defineEmits<{
 }
 
 .definition {
-  font-size: clamp(14px, 3vw, 20px);
+  font-size: clamp(16px, 3.5vw, 20px);
   line-height: 1.8;
   margin: 0 0 16px 0;
 }
 
 .example {
-  font-size: clamp(13px, 2.8vw, 18px);
+  font-size: clamp(15px, 3.2vw, 18px);
   font-style: italic;
   margin: 0;
 }

@@ -1,13 +1,13 @@
 <template>
   <div class="button-group fixed">
     <button @click="$emit('prev')">Prev</button>
-    <button @click="$emit('next')">Next</button>
     <button @click="$emit('random')">Random</button>
+    <button @click="$emit('next')">Next</button>
   </div>
   <div class="button-group static">
     <button @click="$emit('prev')">Prev</button>
-    <button @click="$emit('next')">Next</button>
     <button @click="$emit('random')">Random</button>
+    <button @click="$emit('next')">Next</button>
   </div>
 </template>
 
@@ -23,8 +23,7 @@ defineEmits<{
 .button-group {
   display: flex;
   gap: 12px;
-  width: 100%;
-  max-width: 520px;
+  width: 100vw;
   justify-content: center;
 }
 
@@ -33,13 +32,11 @@ defineEmits<{
   left: 0;
   right: 0;
   bottom: env(safe-area-inset-bottom, 0);
-  height: var(--footer-height, 72px);
-  margin: 0;
-  align-items: center;
-  background: transparent;
+  align-items: stretch;
   z-index: 40;
   width: 100%;
-  max-width: 100%;
+  padding: 2rem;
+  box-sizing: border-box;
 }
 
 .button-group.static {
@@ -53,14 +50,17 @@ button {
   -webkit-appearance: none;
   border: 1px solid #000;
   background: #fff;
-  padding: 10px 14px;
+  padding: 0.5rem 1rem;
   border-radius: 8px;
   font-family: inherit;
   font-weight: 600;
   cursor: pointer;
-  flex: 1 1 0;
-  max-width: 160px;
+  flex-grow: 1;
   color: #000;
+  user-select: none;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  touch-action: manipulation;
 }
 
 button:hover {
