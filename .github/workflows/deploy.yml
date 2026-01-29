@@ -29,16 +29,22 @@ jobs:
         run: npm run build
 
       - name: Upload artifact for GitHub Pages
-        uses: actions/upload-pages-artifact@v1
+        uses: actions/upload-artifact@v4
         with:
+          name: dist
           path: ./dist
 
   deploy:
     needs: build
     runs-on: ubuntu-latest
-    permissions:
-      pages: write
-      id-token: write
     steps:
-      - name: Deploy to GitHub Pages
-        uses: actions/deploy-pages@v1
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Deploy to gh-pages (JamesIves)
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          branch: gh-pages
+          folder: dist
+          clean: true
+          token: ${{ secrets.GITHUB_TOKEN }}
