@@ -52,7 +52,6 @@ defineEmits<{
   --body-font: "Poppins", "Helvetica Neue", Arial, sans-serif;
 }
 
-/* Mobile-first base styles */
 .dictionary-card {
   box-sizing: border-box;
   width: 100%;
@@ -60,13 +59,12 @@ defineEmits<{
   margin: 24px auto;
   padding: 28px 22px;
   background: #fff;
-  /* Mobile: frameless look */
   border: none;
   box-shadow: none;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  align-items: center; /* center content horizontally on mobile */
+  align-items: center;
   text-align: center;
   overflow: hidden;
 }
@@ -78,7 +76,6 @@ defineEmits<{
 
 .title {
   font-family: var(--title-font);
-  /* Mobile-first: make the main word very large but responsive */
   font-size: clamp(48px, 14vw, 96px);
   line-height: 1;
   color: var(--accent);
@@ -104,38 +101,29 @@ defineEmits<{
 .card-body {
   font-family: var(--body-font);
   width: 100%;
-  /* allow inner scrolling when content overflows while hiding native scrollbars */
-  overflow: auto;
-  -webkit-overflow-scrolling: touch;
-  scrollbar-width: none; /* firefox */
 }
 
 .definition {
   font-size: 16px;
   line-height: 1.8;
-  color: #000;
   margin: 0 0 16px 0;
 }
 
 .example {
   font-size: 16px;
   font-style: italic;
-  color: #000;
   margin: 0;
 }
 
-/* Portrait-specific tweaks for small devices */
 @media (orientation: portrait) and (max-width: 720px) {
   .dictionary-card {
     padding: 20px 18px;
   }
   .title {
-    /* tighten title slightly for very narrow portrait screens */
     font-size: clamp(40px, 16vw, 84px);
   }
 }
 
-/* Desktop: make the card square and increase spacing */
 @media (min-width: 720px) {
   .dictionary-card {
     width: var(--card-width);
@@ -144,7 +132,6 @@ defineEmits<{
     padding: 56px 64px;
     margin: 48px auto;
     justify-content: center;
-    /* restore framed look on desktop (black border, no shadow) */
     border: 1px solid #000;
     box-shadow: none;
     align-items: flex-start;
@@ -178,16 +165,14 @@ defineEmits<{
   }
 }
 
-/* Footer / buttons (mobile: fixed to viewport bottom) */
 .card-footer {
   width: 100%;
-  /* mobile: pin footer to viewport bottom */
   position: fixed;
   left: 0;
   right: 0;
   bottom: env(safe-area-inset-bottom, 0);
   height: var(--footer-height, 72px);
-  margin: 0;
+  margin: 1rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -208,7 +193,6 @@ defineEmits<{
   appearance: none;
   -webkit-appearance: none;
   border: 1px solid #000;
-  background: #fff;
   padding: 10px 14px;
   border-radius: 8px;
   font-family: var(--body-font);
@@ -222,7 +206,6 @@ defineEmits<{
 .card-footer .controls button:hover,
 .external-controls button:hover {
   background: #000;
-  color: #fff;
 }
 
 @media (min-width: 720px) {
