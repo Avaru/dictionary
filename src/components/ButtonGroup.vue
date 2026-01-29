@@ -1,14 +1,21 @@
 <template>
-  <div :class="['button-group', position]">
-    <button type="button">Prev</button>
-    <button type="button">Next</button>
-    <button type="button">Random</button>
+  <div class="button-group fixed">
+    <button @click="$emit('prev')">Prev</button>
+    <button @click="$emit('next')">Next</button>
+    <button @click="$emit('random')">Random</button>
+  </div>
+  <div class="button-group static">
+    <button @click="$emit('prev')">Prev</button>
+    <button @click="$emit('next')">Next</button>
+    <button @click="$emit('random')">Random</button>
   </div>
 </template>
 
 <script setup lang="ts">
-defineProps<{
-  position?: "fixed" | "static";
+defineEmits<{
+  prev: [];
+  next: [];
+  random: [];
 }>();
 </script>
 

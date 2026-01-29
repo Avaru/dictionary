@@ -12,8 +12,7 @@
     </section>
   </article>
 
-  <ButtonGroup position="fixed" />
-  <ButtonGroup position="static" />
+  <ButtonGroup @next="$emit('next')" @prev="$emit('prev')" @random="$emit('random')" />
 </template>
 
 <script setup lang="ts">
@@ -68,7 +67,7 @@ defineEmits<{
 
 .title {
   font-family: var(--title-font);
-  font-size: clamp(48px, 14vw, 96px);
+  font-size: clamp(48px, 12vw, 80px);
   line-height: 1;
   color: var(--accent);
   margin: 0 0 8px 0;
@@ -79,9 +78,10 @@ defineEmits<{
   font-family: var(--body-font);
   font-weight: 700;
   letter-spacing: 0.04em;
-  font-size: 13px;
+  font-size: clamp(11px, 2.5vw, 14px);
   color: var(--accent);
   margin-bottom: 8px;
+  font-variant: small-caps;
 }
 
 .rule {
@@ -93,16 +93,23 @@ defineEmits<{
 .card-body {
   font-family: var(--body-font);
   width: 100%;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+}
+
+.card-body::-webkit-scrollbar {
+  display: none;
 }
 
 .definition {
-  font-size: 16px;
+  font-size: clamp(14px, 3vw, 20px);
   line-height: 1.8;
   margin: 0 0 16px 0;
 }
 
 .example {
-  font-size: 16px;
+  font-size: clamp(13px, 2.8vw, 18px);
   font-style: italic;
   margin: 0;
 }
@@ -110,9 +117,6 @@ defineEmits<{
 @media (orientation: portrait) and (max-width: 720px) {
   .dictionary-card {
     padding: 20px 18px;
-  }
-  .title {
-    font-size: clamp(40px, 16vw, 84px);
   }
 }
 
