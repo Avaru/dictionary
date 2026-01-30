@@ -18,6 +18,12 @@ export const dictionary = [
     definition: "An eraser.",
     example: "Jib ma deinen Ratzefummel, ick hab hier Mist jeschrieben.",
   },
+  {
+    word: "Gedöns",
+    type: "noun",
+    definition: "Unspecified or unneccessary stuff.",
+    example: "Ich mag Pizza margarita am liebsten, auf den anderen Sorten ist mir zu viel Gedöns.",
+  },
 ];
 
 export default dictionary;
