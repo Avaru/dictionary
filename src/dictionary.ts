@@ -51,19 +51,19 @@ export const dictionary = [
   {
     word: "Schnickschnack",
     type: "noun",
-    definition: "Fancy details you spend too much time or money on;",
+    definition: "Fancy details you spend too much time or money on.",
     example: "Maximal Schnickschnack am Auto, bitte.",
   },
   {
     word: "Klimbim",
     type: "noun",
-    definition: "Pointless, flash trinkets or knick-knacks;",
+    definition: "Pointless, flashy trinkets or knick-knacks.",
     example: "Niemand braucht so viel Klimbim, ist aber lustig.",
   },
   {
     word: "Pipapo",
     type: "noun",
-    definition: "All the bells and whistles; everything included",
+    definition: "All the bells and whistles; everything included.",
     example: "Party war super, mit allem Pipapo.",
   },
   {
@@ -76,19 +76,19 @@ export const dictionary = [
     word: "Tja",
     type: "interjection",
     definition:
-      "Resignation, acceptance or befuddlment about something unfortunate, all in one word.",
+      "Resignation, acceptance or befuddlement about something unfortunate, all in one word.",
     example: "Tja, Pech gehabt.",
   },
   {
     word: "Papperlapapp",
     type: "interjection",
     definition: "Nonsense! Rubbish! Balderdash!",
-    example: "Papperlapapp! You're not going to the party!",
+    example: "Papperlapapp! Du gehst nicht zur Party!",
   },
   {
     word: "Pappnase",
     type: "noun",
-    definition: "Clown nose; Combining incompetence with silliness.",
+    definition: "Clown nose; combining incompetence with silliness.",
     example: "Friedrich Merz ist echt eine Pappnase.",
   },
   {
@@ -106,13 +106,13 @@ export const dictionary = [
   {
     word: "Pissnelke",
     type: "noun",
-    definition: "Just like an Arschgeige; Unpleaseant person; vulgar but not too harsh.",
+    definition: "Just like an Arschgeige; unpleaseant person; vulgar but not too harsh.",
     example: "Diese Pissnelke hat alle Süßigkeiten aufgegessen.",
   },
   {
     word: "Arschgeige",
     type: "noun",
-    definition: "Just like a Pissnelke; An incompetent or foolish person; a jerk.",
+    definition: "Just like a Pissnelke; an incompetent or foolish person; a jerk.",
     example: "Die Arschgeige hat mir den ganzen Mist hinterlassen.",
   },
   {
@@ -137,7 +137,7 @@ export const dictionary = [
     word: "krisselig",
     type: "adjective",
     definition: "Frizzy, noisy, fidgety or uneasy.",
-    example: "Meine Haare sind heute total krisselig.0",
+    example: "Meine Haare sind heute total krisselig.",
   },
   {
     word: "wuschig",
@@ -166,7 +166,7 @@ export const dictionary = [
   {
     word: "Flitzpiepe",
     type: "noun",
-    definition: "A Knalltüte but a bit more oldschool",
+    definition: "A Knalltüte but a bit more oldschool.",
     example: "Was ne Flitzpiepe, ey!",
   },
   {
@@ -176,9 +176,9 @@ export const dictionary = [
     example: "Schau dir den kleinen Wonneproppen an!",
   },
   {
-    word: "Etepetete",
+    word: "etepetete",
     type: "adjective",
-    definition: "Fussy, picky, overly particular about details; Princ(essy)y.",
+    definition: "Fussy, picky, overly particular about details; princ(ess)y.",
     example: "Sie ist so eteptete, ich will einfach was essen.",
   },
   {
