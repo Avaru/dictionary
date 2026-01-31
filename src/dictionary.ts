@@ -36,39 +36,187 @@ export const dictionary = [
     definition: "Useless stuff; junk.",
     example: "Warum kaufst du so viel Tinnef bei Temu?",
   },
+  {
+    word: "Mumpitz",
+    type: "noun",
+    definition: "Nonsense; something that is silly or ridiculous.",
+    example: "Diese Unternehmenskonzepte vom Management sind doch Mumpitz.",
+  },
+  {
+    word: "Gelaber",
+    type: "noun",
+    definition: "This could have been an email; pointless chatter or rambling talk.",
+    example: "Mangement-Gelaber, wie immer.",
+  },
+  {
+    word: "Schnickschnack",
+    type: "noun",
+    definition: "Fancy details you spend too much time or money on;",
+    example: "Maximal Schnickschnack am Auto, bitte.",
+  },
+  {
+    word: "Klimbim",
+    type: "noun",
+    definition: "Pointless, flash trinkets or knick-knacks;",
+    example: "Niemand braucht so viel Klimbim, ist aber lustig.",
+  },
+  {
+    word: "Pipapo",
+    type: "noun",
+    definition: "All the bells and whistles; everything included",
+    example: "Party war super, mit allem Pipapo.",
+  },
+  {
+    word: "Vermaledeit",
+    type: "adjective",
+    definition: "Cursed; damned; but saying it nicely.",
+    example: "Vermaledeite Kackscheiße, nix geht hier!",
+  },
+  {
+    word: "Tja",
+    type: "interjection",
+    definition:
+      "Resignation, acceptance or befuddlment about something unfortunate, all in one word.",
+    example: "Tja, Pech gehabt.",
+  },
+  {
+    word: "Papperlapapp",
+    type: "interjection",
+    definition: "Nonsense! Rubbish! Balderdash!",
+    example: "Papperlapapp! You're not going to the party!",
+  },
+  {
+    word: "Pappnase",
+    type: "noun",
+    definition: "Clown nose; Combining incompetence with silliness.",
+    example: "Friedrich Merz ist echt eine Pappnase.",
+  },
+  {
+    word: "Schlawiner*in",
+    type: "noun",
+    definition: "A sly, cunning person; a rascal with charm.",
+    example: "Die Schlawinerin hat Enten im Büro versteckt.",
+  },
+  {
+    word: "Schabernack",
+    type: "noun",
+    definition: "Playful mischief, annoying and fun at the same time.",
+    example: "Anh treibt mal wieder Schabernack.",
+  },
+  {
+    word: "Pissnelke",
+    type: "noun",
+    definition: "Just like an Arschgeige; Unpleaseant person; vulgar but not too harsh.",
+    example: "Diese Pissnelke hat alle Süßigkeiten aufgegessen.",
+  },
+  {
+    word: "Arschgeige",
+    type: "noun",
+    definition: "Just like a Pissnelke; An incompetent or foolish person; a jerk.",
+    example: "Die Arschgeige hat mir den ganzen Mist hinterlassen.",
+  },
+  {
+    word: "Ulknudel",
+    type: "noun",
+    definition: "Funny, probably old-fashioned person joking around a lot.",
+    example: "Die Ulknudel und ihre politisch inkorrekten Witze.",
+  },
+  {
+    word: "Firlefanz",
+    type: "noun",
+    definition: "Utterly pointless bells and whistles.",
+    example: "Lass den Firlefanz und komm zur Sache.",
+  },
+  {
+    word: "Dussel",
+    type: "noun",
+    definition: "Saying stupid in a friendly way; a scatterbrain.",
+    example: "Der Dussel hat schon wieder seinen Account gesperrt.",
+  },
+  {
+    word: "krisselig",
+    type: "adjective",
+    definition: "Frizzy, noisy, fidgety or uneasy.",
+    example: "Meine Haare sind heute total krisselig.0",
+  },
+  {
+    word: "wuschig",
+    type: "adjective",
+    definition: "Restless, fidgety, chaotic, nervous.",
+    example: "Vor der Präse war ich total wuschig.",
+  },
+  {
+    word: "Moppelkotze",
+    type: "noun",
+    definition: "A soup of undefined ingredients.",
+    example: "Heute gibt's Moppelkotze zum Abendessen!",
+  },
+  {
+    word: "Kohldampf",
+    type: "noun",
+    definition: "A strong feeling of hunger or appetite; first-world starving.",
+    example: "Ich hab' solchen Kohldampf, wo bleibt die Pizza?",
+  },
+  {
+    word: "Knalltüte",
+    type: "noun",
+    definition: "An excetric idiot; in an affectionate way.",
+    example: "Der Typ ist echt 'ne Knalltüte.",
+  },
+  {
+    word: "Flitzpiepe",
+    type: "noun",
+    definition: "A Knalltüte but a bit more oldschool",
+    example: "Was ne Flitzpiepe, ey!",
+  },
+  {
+    word: "Wonneproppen",
+    type: "noun",
+    definition: "A chubby, adorable baby or toddler. Not a cat.",
+    example: "Schau dir den kleinen Wonneproppen an!",
+  },
+  {
+    word: "Etepetete",
+    type: "adjective",
+    definition: "Fussy, picky, overly particular about details; Princ(essy)y.",
+    example: "Sie ist so eteptete, ich will einfach was essen.",
+  },
+  {
+    word: "malochen",
+    type: "verb",
+    definition: "To work hard; especially in a physically demanding job.",
+    example: "Immer wieder malochen, bis der Arzt kommt.",
+  },
+  {
+    word: "schlonzig",
+    type: "adjective",
+    definition: "Sloppy, messy, unkempt; often about food or appearance.",
+    example: "Der Teller sieht schlonzig aus, iss das nicht!",
+  },
+  {
+    word: "knuffig",
+    type: "adjective",
+    definition: "Cute, cuddly, adorable; ready to be hugged to death.",
+    example: "Der kleine Anton ist so knuffig!",
+  },
+  {
+    word: "friemeln",
+    type: "verb",
+    definition: "To fiddle with something; sometimes until it breaks.",
+    example: "Die friemelt den ganzen Tag an ihrem Fahrrad rum.",
+  },
+  {
+    word: "assi",
+    type: "adjective",
+    definition: "Short for 'asozial'; disrespectful, rude, uncouth behavior.",
+    example: "Das war ja mal richtig assi von dir.",
+  },
+  {
+    word: "ausgenudelt",
+    type: "adjective",
+    definition: "Worn out to the point of being unusable; often about clothes or shoes.",
+    example: "Meine alten Schuhe sind total ausgenudelt.",
+  },
 ];
 
 export default dictionary;
-
-/*
-
-Pipapo
-vermaledeit
-Tja
-Papperlapapp
-Pappnase
-Schlawiner
-Schabernack
-Pissnelke
-Banause
-Arschgeige
-Ulknudel
-Klimbim
-Firlefanz
-krisselig
-wuschig
-Moppelkotze
-Knalltüte
-Flitzpiepe
-Kohldampf
-Wonneproppen
-Etepetete
-malochen
-schlonzig
-knuffig
-friemeln
-assi
-ausgenudelt
-
-
-*/
