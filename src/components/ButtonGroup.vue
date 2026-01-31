@@ -4,11 +4,6 @@
     <button @click="$emit('random')">Random</button>
     <button @click="$emit('next')">Next</button>
   </div>
-  <div class="button-group static">
-    <button @click="$emit('prev')">Prev</button>
-    <button @click="$emit('random')">Random</button>
-    <button @click="$emit('next')">Next</button>
-  </div>
 </template>
 
 <script setup lang="ts">
@@ -39,12 +34,6 @@ defineEmits<{
   box-sizing: border-box;
 }
 
-.button-group.static {
-  display: none; /* hidden on mobile, shown on desktop */
-  margin-top: 28px;
-  justify-content: flex-start;
-}
-
 button {
   appearance: none;
   -webkit-appearance: none;
@@ -52,8 +41,6 @@ button {
   background: #fff;
   padding: 0.5rem 1rem;
   border-radius: 8px;
-  font-family: inherit;
-  font-weight: 600;
   cursor: pointer;
   flex-grow: 1;
   color: #000;
@@ -74,18 +61,15 @@ button:hover {
     justify-content: flex-start;
   }
 
-  .button-group.fixed {
-    display: none; /* hide fixed buttons on desktop */
-  }
-
-  .button-group.static {
-    display: flex; /* show static buttons on desktop */
-    margin-top: 28px;
-  }
-
   button {
     flex: 0 0 auto;
     min-width: 110px;
+  }
+}
+
+@media print {
+  .button-group {
+    display: none;
   }
 }
 </style>

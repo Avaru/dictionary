@@ -39,8 +39,6 @@ defineEmits<{
   --card-border: #222;
   --accent: #000;
   --footer-height: 72px;
-  --title-font: "Playfair Display", serif;
-  --body-font: "Poppins", "Helvetica Neue", Arial, sans-serif;
 }
 
 .dictionary-card {
@@ -66,19 +64,17 @@ defineEmits<{
 }
 
 .title {
-  font-family: var(--title-font);
-  font-size: clamp(48px, 12vw, 80px);
+  font-family: var(--font-title);
+  font-size: clamp(32px, 10vw, 64px);
   line-height: 1;
   color: var(--accent);
   margin: 0 0 8px 0;
-  font-weight: 400;
 }
 
 .type {
-  font-family: var(--body-font);
-  font-weight: 700;
+  font-family: var(--font-type);
   letter-spacing: 0.04em;
-  font-size: clamp(13px, 3vw, 14px);
+  font-size: clamp(16px, 3vw, 16px);
   color: var(--accent);
   margin-bottom: 8px;
   font-variant: small-caps;
@@ -91,11 +87,12 @@ defineEmits<{
 }
 
 .card-body {
-  font-family: var(--body-font);
+  font-family: var(--font-body);
   width: 100%;
   overflow: auto;
   -webkit-overflow-scrolling: touch;
   scrollbar-width: none;
+  font-weight: 300;
 }
 
 .card-body::-webkit-scrollbar {
@@ -120,44 +117,60 @@ defineEmits<{
   }
 }
 
-@media (min-width: 720px) {
+@media print {
   .dictionary-card {
-    width: var(--card-width);
-    max-width: 90vw;
-    aspect-ratio: 1 / 1;
-    padding: 56px 64px;
-    margin: 48px auto;
-    justify-content: center;
+    width: 9.5cm;
+    height: 9.5cm;
+    page-break-inside: avoid;
+    margin: 0.5cm;
+    padding: 0.5cm;
     border: 1px solid #000;
-    box-shadow: none;
+    justify-content: center;
     align-items: flex-start;
     text-align: left;
+    overflow: visible;
+    background: #fff;
+    aspect-ratio: auto;
+  }
+
+  @page {
+    margin: 0cm;
   }
 
   .card-header {
-    margin-bottom: 28px;
+    margin-bottom: 10px;
+    width: 100%;
   }
 
   .title {
-    font-size: 64px;
+    font-size: 30px;
+    line-height: 1.1;
+    margin: 0 0 3px 0;
   }
 
   .type {
-    font-size: 14px;
-    margin-bottom: 12px;
+    font-size: 9px;
+    margin-bottom: 5px;
+    font-weight: 700;
   }
 
   .rule {
-    margin: 16px 0 24px 0;
+    margin: 5px 0 7px 0;
+  }
+
+  .card-body {
+    overflow: visible;
   }
 
   .definition {
-    font-size: 20px;
-    margin: 0 0 20px 0;
+    font-size: 10px;
+    line-height: 1.35;
+    margin: 0 0 5px 0;
   }
 
   .example {
-    font-size: 18px;
+    font-size: 9px;
+    line-height: 1.35;
   }
 }
 </style>
