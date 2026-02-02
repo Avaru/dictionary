@@ -247,6 +247,12 @@ export const dictionary = [
     definition: "A person who cannot be taken seriously, contrary to their own opinion about themselves.",
     example: "Der Marketingfuzzi hatte wieder mal nichts Sinnvolles beizutragen.",
   },
+  {
+    word: "Vollpfosten",
+    type: "noun",
+    definition: "A very foolish or extremely unintelligent person.",
+    example: "Man legt kein Metall in die Mikrowelle, du Vollpfosten!",
+  },
 ];
 
 export default dictionary;
