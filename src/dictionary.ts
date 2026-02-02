@@ -253,6 +253,12 @@ export const dictionary = [
     definition: "A very foolish or extremely unintelligent person.",
     example: "Man legt kein Metall in die Mikrowelle, du Vollpfosten!",
   },
+  {
+    word: "Schwachmat*in",
+    type: "noun",
+    definition: "A Vollpfosten.",
+    example: "Der Schwachmat hat schon wieder den Müll falsch getrennt!",
+  },
 ];
 
 export default dictionary;
