@@ -233,7 +233,7 @@ export const dictionary = [
     word: "Vollpfosten",
     type: "noun",
     definition: "A very stupid person.",
-    example: "Man tut doch kein Metall in die Mikrowelle, du Vollpfosten!",
+    example: "Man legt kein Metall in die Mikrowelle, du Vollpfosten!",
   },
 ];
 
