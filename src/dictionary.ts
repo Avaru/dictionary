@@ -229,6 +229,12 @@ export const dictionary = [
     definition: "Party atmosphere, people are having fun.",
     example: "Kaum ist Freitag, machen die Kolleg*innen im Büro Rambazamba.",
   },
+  {
+    word: "Vollpfosten",
+    type: "noun",
+    definition: "A very stupid person.",
+    example: "Man tut doch kein Metall in die Mikrowelle, du Vollpfosten!",
+  },
 ];
 
 export default dictionary;
