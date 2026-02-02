@@ -230,6 +230,24 @@ export const dictionary = [
     example: "Kaum ist Freitag, machen die Kolleg*innen im Büro Rambazamba.",
   },
   {
+    word: "Fritze",
+    type: "noun",
+    definition: "A person without personal relationship to you; usually combined with a profession.",
+    example: "Der Versicherungsfritze hat angerufen.",
+  },
+  {
+    word: "Heini",
+    type: "noun",
+    definition: "A person who is considered a bit stupid or who is disliked.",
+    example: "Was erzählt der Heini da vorne eigentlich für einen Quatsch?",
+  },
+  {
+    word: "Fuzzi",
+    type: "noun",
+    definition: "A person who cannot be taken seriously, contrary to their own opinion about themselves.",
+    example: "Der Marketingfuzzi hatte wieder mal nichts Sinnvolles beizutragen.",
+  },
+  {
     word: "Vollpfosten",
     type: "noun",
     definition: "A very foolish or extremely unintelligent person.",
