@@ -232,7 +232,7 @@ export const dictionary = [
   {
     word: "Vollpfosten",
     type: "noun",
-    definition: "A very stupid person.",
+    definition: "A very foolish or extremely unintelligent person.",
     example: "Man legt kein Metall in die Mikrowelle, du Vollpfosten!",
   },
 ];
