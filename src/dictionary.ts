@@ -217,6 +217,18 @@ export const dictionary = [
     definition: "Worn out to the point of being unusable; often about clothes or shoes.",
     example: "Meine alten Schuhe sind total ausgenudelt.",
   },
+  {
+    word: "gelackmeiert",
+    type: "adjective",
+    definition: "Scammed, tricked, deceived, to be at a disadvantage; can also be used as a noun 'der*die Gelackmeierte sein'.",
+    example: "Anton hat das letzte Stück Kuchen gegessen und ich stand gelackmeiert da [/ und ich war die Gelackmeierte].",
+  },
+  {
+    word: "Rambazamba",
+    type: "noun",
+    definition: "Party atmosphere, people are having fun.",
+    example: "Kaum ist Freitag, machen die Kolleg*innen im Büro Rambazamba.",
+  },
 ];
 
 export default dictionary;
