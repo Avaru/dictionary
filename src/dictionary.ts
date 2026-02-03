@@ -302,7 +302,7 @@ export const dictionary = [
   {
     word: "Peppig",
     type: "adjective",
-    definition: "Lively, spirited, full of energy, yet oldschool",
+    definition: "Lively, spirited, full of energy, yet oldschool.",
     example: "Miriams Klamotten sind immer so peppig.",
   },
 ];
