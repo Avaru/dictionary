@@ -172,7 +172,7 @@ export const dictionary = [
   {
     word: "Wonneproppen",
     type: "noun",
-    definition: "A chubby, adorable baby or toddler. Not a cat.",
+    definition: "A chubby, adorable baby or toddler. Maybe a cat.",
     example: "Schau dir den kleinen Wonneproppen an!",
   },
   {
@@ -220,8 +220,10 @@ export const dictionary = [
   {
     word: "gelackmeiert",
     type: "adjective",
-    definition: "Scammed, tricked, deceived, to be at a disadvantage; can also be used as a noun 'der*die Gelackmeierte sein'.",
-    example: "Anton hat das letzte Stück Kuchen gegessen und ich stand gelackmeiert da [/ und ich war die Gelackmeierte].",
+    definition:
+      "Scammed, tricked, deceived, to be at a disadvantage; can also be used as a noun 'der*die Gelackmeierte sein'.",
+    example:
+      "Anton hat das letzte Stück Kuchen gegessen und ich stand gelackmeiert da [/ und ich war die Gelackmeierte].",
   },
   {
     word: "Rambazamba",
@@ -232,7 +234,8 @@ export const dictionary = [
   {
     word: "Fritze",
     type: "noun",
-    definition: "A person without personal relationship to you; usually combined with a profession.",
+    definition:
+      "A person without personal relationship to you; usually combined with a profession.",
     example: "Der Versicherungsfritze hat angerufen.",
   },
   {
@@ -244,7 +247,8 @@ export const dictionary = [
   {
     word: "Fuzzi",
     type: "noun",
-    definition: "A person who cannot be taken seriously, contrary to their own opinion about themselves.",
+    definition:
+      "A person who cannot be taken seriously, contrary to their own opinion about themselves.",
     example: "Der Marketingfuzzi hatte wieder mal nichts Sinnvolles beizutragen.",
   },
   {
@@ -258,6 +262,54 @@ export const dictionary = [
     type: "noun",
     definition: "A Vollpfosten.",
     example: "Der Schwachmat hat schon wieder den Müll falsch getrennt!",
+  },
+  {
+    word: "Dödel",
+    type: "noun",
+    definition: "A silly or foolish person; a bit of a fool.",
+    example: "Der Dödel hat den Kaffee verschüttet.",
+  },
+  {
+    word: "Rummachen",
+    type: "verb",
+    definition: "To make out; to engage in romantic or physical affection.",
+    example: "Die beiden haben auf der Party ordentlich rumgemacht.",
+  },
+  {
+    word: "Piepmatz",
+    type: "noun",
+    definition: "A small bird; often used affectionately for small children.",
+    example: "Der kleine Piepmatz schläft schon.",
+  },
+  {
+    word: "beratungsresistent",
+    type: "adjective",
+    definition: "Stubbornly refusing advice or help; unwilling to listen to others.",
+    example: "Trotz aller Hinweise bleibt er beratungsresistent.",
+  },
+  {
+    word: "schnabulieren",
+    type: "verb",
+    definition: "To eat with pleasure; to nibble or snack delightfully.",
+    example: "Lass uns schnalbulieren gehen!",
+  },
+  {
+    word: "Frechdachs",
+    type: "noun",
+    definition: "A cheeky or mischievous person, often a child.",
+    example: "Luca war heute wieder ein Frechdachs im Planning.",
+  },
+  {
+    word: "Kinkerlitzchen",
+    type: "noun",
+    definition: "Trivial details or unnecessary frills.",
+    example: "Lass den Kinkerlitzchen und komm zur Sache.",
+  },
+  {
+    word: "Peppig",
+    type: "adjective",
+    definition: "Lively, spirited, full of energy, yet oldschool",
+    example: "Miriams Klamotten sind immer so peppig.",
   },
 ];
 
