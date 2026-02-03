@@ -297,7 +297,7 @@ export const dictionary = [
     word: "Kinkerlitzchen",
     type: "noun",
     definition: "Trivial details or unnecessary frills.",
-    example: "Lass den Kinkerlitzchen und komm zur Sache.",
+    example: "Lass die Kinkerlitzchen und komm zur Sache.",
   },
   {
     word: "Peppig",
