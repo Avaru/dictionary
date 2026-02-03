@@ -66,10 +66,4 @@ button:hover {
     min-width: 110px;
   }
 }
-
-@media print {
-  .button-group {
-    display: none;
-  }
-}
 </style>

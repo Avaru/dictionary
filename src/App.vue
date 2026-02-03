@@ -40,10 +40,6 @@ onMounted(() => {
       @random="randomWord()"
     />
   </main>
-
-  <main class="print-view">
-    <DictionaryCard v-for="word in dictionary" :key="word.word" v-bind="word" />
-  </main>
 </template>
 
 <style>
@@ -59,25 +55,6 @@ main {
   min-height: 100vh;
 }
 
-.print-view {
-  display: none;
-}
-
-@media print {
-  .screen-view {
-    display: none;
-  }
-
-  .print-view {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    min-height: auto;
-    overflow: visible;
-    width: 100%;
-    padding: 0.5cm;
-    gap: 0;
-  }
-}
 
 :root {
   --font-title: "Playfair Display", serif;
