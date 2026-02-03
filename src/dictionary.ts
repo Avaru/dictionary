@@ -2,8 +2,7 @@ export const dictionary = [
   {
     word: "Pillepalle",
     type: "noun",
-    definition:
-      "A delightfully pointless little thing, far too insignificant to be worth getting upset about.",
+    definition: "A delightfully pointless little thing, far too insignificant to be worth getting upset about.",
     example: "Roman macht Drama daraus, aber ehrlich gesagt ist es Pillepalle.",
   },
   {
@@ -75,8 +74,7 @@ export const dictionary = [
   {
     word: "Tja",
     type: "interjection",
-    definition:
-      "Resignation, acceptance or befuddlement about something unfortunate, all in one word.",
+    definition: "Resignation, acceptance or befuddlement about something unfortunate, all in one word.",
     example: "Tja, Pech gehabt.",
   },
   {
@@ -220,10 +218,8 @@ export const dictionary = [
   {
     word: "gelackmeiert",
     type: "adjective",
-    definition:
-      "Scammed, tricked, deceived, to be at a disadvantage; can also be used as a noun 'der*die Gelackmeierte sein'.",
-    example:
-      "Anton hat das letzte Stück Kuchen gegessen und ich stand gelackmeiert da [/ und ich war die Gelackmeierte].",
+    definition: "Scammed, tricked, deceived, to be at a disadvantage; can also be used as a noun 'der*die Gelackmeierte sein'.",
+    example: "Anton hat das letzte Stück Kuchen gegessen und ich stand gelackmeiert da [/ und ich war die Gelackmeierte].",
   },
   {
     word: "Rambazamba",
@@ -234,8 +230,7 @@ export const dictionary = [
   {
     word: "Fritze",
     type: "noun",
-    definition:
-      "A person without personal relationship to you; usually combined with a profession.",
+    definition: "A person without personal relationship to you; usually combined with a profession.",
     example: "Der Versicherungsfritze hat angerufen.",
   },
   {
@@ -247,8 +242,7 @@ export const dictionary = [
   {
     word: "Fuzzi",
     type: "noun",
-    definition:
-      "A person who cannot be taken seriously, contrary to their own opinion about themselves.",
+    definition: "A person who cannot be taken seriously, contrary to their own opinion about themselves.",
     example: "Der Marketingfuzzi hatte wieder mal nichts Sinnvolles beizutragen.",
   },
   {
