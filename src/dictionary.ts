@@ -264,7 +264,7 @@ export const dictionary = [
     example: "Der Dödel hat den Kaffee verschüttet.",
   },
   {
-    word: "Rummachen",
+    word: "rummachen",
     type: "verb",
     definition: "To make out; to engage in romantic or physical affection.",
     example: "Die beiden haben auf der Party ordentlich rumgemacht.",
@@ -300,7 +300,7 @@ export const dictionary = [
     example: "Lass die Kinkerlitzchen und komm zur Sache.",
   },
   {
-    word: "Peppig",
+    word: "peppig",
     type: "adjective",
     definition: "Lively, spirited, full of energy, yet oldschool.",
     example: "Miriams Klamotten sind immer so peppig.",
