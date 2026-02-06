@@ -377,6 +377,48 @@ export const dictionary = [
     definition: "A Wegbier, a beer you drink while walking home from or to the bar.",
     example: "Erstmal ein Fußpils, bevor wir weiterziehen.",
   },
+  {
+    word: "Katzenjammer",
+    type: "noun",
+    definition: "A hangover.",
+    example: "Nach der Party hatte ich einen schlimmen Katzenjammer.",
+  },
+  {
+    word: "Kokolores",
+    type: "noun",
+    definition: "Nonsense; something that is silly or ridiculous. Caused or not caused by cocaine.",
+    example: "Das ist doch alles Kokolores, was du da erzählst.",
+  },
+  {
+    word: "Potzblitz",
+    type: "interjection",
+    definition: "An exclamation of surprise or astonishment.",
+    example: "Potzblitz! Das hätte ich nicht erwartet.",
+  },
+  {
+    word: "Schlitzohr",
+    type: "noun",
+    definition: "Sly fox or little rascal. A Lausbub, Schlingel or Schurke, but in a nice way.",
+    example: "Das Schlitzohr ist schon wieder entkommen!",
+  },
+  {
+    word: "gewieft",
+    type: "adjective",
+    definition: "Clever, cunning, street-smart; able to navigate tricky situations with ease.",
+    example: "Ganz schön gewieft!",
+  },
+  {
+    word: "hanebüchen",
+    type: "adjective",
+    definition: "Absurd, outrageous, or preposterous;",
+    example: "Die Handlung des Films war total hanebüchen.",
+  },
+  {
+    word: "Sapperlot",
+    type: "interjection",
+    definition: "Humorous (granny) expression of astonishment, surprise, indignation or admiration.",
+    example: "Sapperlot! Das hast du dich getraut?",
+  },
 ];
 
 export default dictionary;
