@@ -305,6 +305,12 @@ export const dictionary = [
     definition: "Lively, spirited, full of energy, yet oldschool.",
     example: "Miriams Klamotten sind immer so peppig.",
   },
+  {
+    word: "Puschen",
+    type: "noun",
+    definition: "House slippers, usually cozy.",
+    example: "An kalten Tagen ziehe mir gerne zu Hause Puschen an.",
+  },
 ];
 
 export default dictionary;
