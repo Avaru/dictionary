@@ -311,6 +311,72 @@ export const dictionary = [
     definition: "House slippers, usually cozy.",
     example: "An kalten Tagen ziehe mir gerne zu Hause Puschen an.",
   },
+  {
+    word: "Gardinenpredigt",
+    type: "noun",
+    definition: "A long, moralizing lecture, often given by a parent to a child.",
+    example: "Nach der Schlammschlacht gab es eine Gardinenpredigt von Mama.",
+  },
+  {
+    word: "quäken",
+    type: "verb",
+    definition: "To complain or whine in a high-pitched, annoying manner.",
+    example: "Hör auf zu quäken und iss deinen Big Mac!",
+  },
+  {
+    word: "Körperklaus",
+    type: "noun",
+    definition: "Someone with a negative talent for physical action.",
+    example: "Der Körperklaus hat den Fernseher umgeworfen, samt Pflanze daneben.",
+  },
+  {
+    word: "Kopfkino",
+    type: "noun",
+    definition: "Mental cinema; vivid imagination or daydreaming disrespectful of time and space.",
+    example: "Ein Blick von ihr und schon geht das Kopfkino los.",
+  },
+  {
+    word: "Eselsbrücke",
+    type: "noun",
+    definition: "A mnemonic device; a memory aid to help remember something.",
+    example: "Eine Eselsbrücke zu Elefantenohrengröße: Indien ist kleiner als Afrika.",
+  },
+  {
+    word: "feuchtfröhlich",
+    type: "adjective",
+    definition: "Fun with alcohol, just before it gets out of hand.",
+    example: "Feuchtfröhliche Abende mit Kolleg*innen helfen, Gossip zu verbreiten.",
+  },
+  {
+    word: "Pustekuchen",
+    type: "interjection",
+    definition: "No way! Not a chance! Used to express disbelief or refusal.",
+    example: "Du denkst, du bekommst den letzen Cookie? Pustekuchen!",
+  },
+  {
+    word: "Sonderlocke",
+    type: "noun",
+    definition: "Special treatment for someone or something.",
+    example: "Dafür mussten wir eine Sonderlocke einbauen.",
+  },
+  {
+    word: "Schwurbler*in",
+    type: "noun",
+    definition: "A person who spreads conspiracy theories or misinformation, often with a right-wing or anti-science agenda.",
+    example: "Mein Nachbar mit den AfD-Aufklebern ist so ein Schwurbler.",
+  },
+  {
+    word: "Rampensau",
+    type: "noun",
+    definition: "A person who loves being the center of attention; a show-off.",
+    example: "Anton ist eine echte Rampensau, er liebt es, im Mittelpunkt zu stehen.",
+  },
+  {
+    word: "Fußpils",
+    type: "noun",
+    definition: "A Wegbier, a beer you drink while walking home from or to the bar.",
+    example: "Erstmal ein Fußpils, bevor wir weiterziehen.",
+  },
 ];
 
 export default dictionary;
