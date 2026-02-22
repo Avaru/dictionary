@@ -419,6 +419,60 @@ export const dictionary = [
     definition: "Humorous (granny) expression of astonishment, surprise, indignation or admiration.",
     example: "Sapperlot! Das hast du dich getraut?",
   },
+  {
+    word: "Humbug",
+    type: "noun",
+    definition: "Deceptive or false talk or behavior; nonsense.",
+    example: "Das ist doch alles Humbug, was du da erzählst.",
+  },
+  {
+    word: "stänkern",
+    type: "verb",
+    definition: "To complain or criticize in a petty or passive-aggressive way.",
+    example: "Er stänkert ständig über die Arbeit, aber tut nichts dagegen.",
+  },
+  {
+    word: "Morgenmuffel",
+    type: "noun",
+    definition: "A person who is grumpy or not a morning person.",
+    example: "Sie ist ein Morgenmuffel, rede besser nicht mit ihr vor dem ersten Kaffee.",
+  },
+  {
+    word: "herrje(mine)",
+    type: "interjection",
+    definition: "An exclamation of surprise or frustration; a more polite alternative to stronger language.",
+    example: "Herrje, das Geschirr steht schon wieder AUF der Spülmaschine!",
+  },
+  {
+    word: "Schabracke",
+    type: "noun",
+    definition: "An old, unappealing woman; an old hag.",
+    example: "Die alte Schabracke von nebenan hat sich schon wieder über unsere Katze beschwert.",
+  },
+  {
+    word: "Trulla",
+    type: "noun",
+    definition: "A derogatory term for a woman who is considered to be a bit silly or sloppy.",
+    example: "Die Trulla hat schon wieder Klatschgeschichten verbreitet.",
+  },
+  {
+    word: "quasseln",
+    type: "verb",
+    definition: "To chatter or babble on about something, often in a way that is considered excessive or unnecessary.",
+    example: "Sie quasselt ununterbrochen, ohne Punkt und Komma.",
+  },
+  {
+    word: "Lulatsch",
+    type: "noun",
+    definition: "A tall, lanky person who often appears to be a bit clumsy.",
+    example: "Der Lulatsch hat sich schon wieder den Kopf an der Tür gestoßen.",
+  },
+  {
+    word: "Nulpe",
+    type: "noun",
+    definition: "A person who is considered to be a loser, cannot manage to do anything right.",
+    example: "So eine Nulpe, nicht mal einen Nagel ins Brett schlagen kann er!",
+  }
 ];
 
 export default dictionary;
